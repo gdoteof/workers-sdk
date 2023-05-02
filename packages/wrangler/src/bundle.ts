@@ -550,7 +550,10 @@ async function applyMiddlewareLoaderFacade(
 		"middleware-insertion-facade.js"
 	);
 	const imports = middlewareIdentifiers
-		.map(([id, path]) => /*javascript*/ `import * as ${id} from "${path}";`)
+		.map(
+			([id, middlewarePath]) =>
+				/*javascript*/ `import * as ${id} from "${middlewarePath}";`
+		)
 		.join("\n");
 
 	const middlewareFns = middlewareIdentifiers
