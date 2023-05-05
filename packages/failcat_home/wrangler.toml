@@ -1,0 +1,10 @@
+name = "failcat_home"
+main = "src/index.ts"
+compatibility_date = "2023-05-05"
+node_compat=true
+
+
+[[d1_databases]]
+binding = "failcat_db"
+database_name = "failcat"
+database_id = "666b7a1e-c03f-4a9a-969d-cf1a0bd4f582"

@@ -1,0 +1,17 @@
+{
+  "name": "failcat_home",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.19.0"
+  },
+  "dependencies": {
+    "json2html": "^0.0.8",
+    "node-json2html": "^2.2.3"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "vitest"
+  }
+}
