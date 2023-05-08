@@ -2,11 +2,17 @@
   "name": "failcat_home",
   "version": "0.0.0",
   "devDependencies": {
+    "worker-loader": "^3.0.8",
     "wrangler": "2.19.0"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.9.1",
+    "@types/pdfjs-dist": "^2.10.378",
     "json2html": "^0.0.8",
-    "node-json2html": "^2.2.3"
+    "node-json2html": "^2.2.3",
+    "pdfjs": "^2.4.7",
+    "pdfjs-dist": "^3.5.141",
+    "react-pdf": "^6.2.2"
   },
   "private": true,
   "scripts": {
